@@ -1,5 +1,5 @@
 import User from "../models/userModel.js";
-import UsersDAO from "../dao/userDAO.js";
+import UsersDAO from "../dao/UserDAO.js";
 
 const indexController = (app, db) => {
   const newUsersDao = new UsersDAO(db);
