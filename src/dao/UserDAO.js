@@ -1,4 +1,4 @@
-class UsersDAO {
+class UserDAO {
   constructor(banco) {
     this.db = banco;
   }
@@ -54,4 +54,6 @@ class UsersDAO {
     });
   }
 }
-export default UsersDAO;
+
+
+export default UserDAO;
